@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    outline: none;
+}
+
+body{
+    background: url("./assets/background.png");
+    background-size: cover; /*Faz a imagem se adaptar a tela*/
+}
+
+.container{
+    background-color: #a59797;
+    width: 500px;
+    border-radius: 15px;
+    padding: 15px;
+    margin: 100px auto 0;
+}
+
+.input-task{
+    border: none;
+    border-radius: 5px;
+    width: 350px;
+    height: 40px;
+    padding: 10px;
+    box-shadow: 1px 4px 10px rgba(0, 0, 0, 0.2);
+    font-size: 15px
+}
+
+.button-add-task{
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    background-color: #003329;
+    color: #fff;
+    font-size: 15px;
+    padding: 0 15px;
+    float: right;
+    cursor: pointer;
+    font-weight: 600;
+    text-transform: uppercase;
+    box-shadow: 1px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.button-add-task:hover{
+    opacity: 0.8;
+}
+
+.button-add-task:active{
+    opacity: 0.6;
+}
+
+.list-tasks{
+    width: 100%;
+    list-style: none;
+    margin-top: 30px;
+}
+
+.task{
+    background-color: #e2c5c5;
+    box-shadow: 1px 4px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px;
+    margin-bottom: 15px;
+}
+
+img {
+    height: 25px; 
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+    cursor: pointer;
+}
+
+.task:hover img{
+    opacity: 1;
+}

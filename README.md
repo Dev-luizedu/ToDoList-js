@@ -1,2 +1,2 @@
 # ToDoList-js
-To do list with html, css and javascript.
+To do list with HTML, CSS and JAVASCRIPT.
